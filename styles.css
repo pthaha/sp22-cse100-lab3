@@ -17,15 +17,15 @@ h2 + p {
 details ~ section {
     background-color: burlywood;
 }
-#hehe.img {
+div.flex-container{
     text-align: center;
     position: sticky;
 }
 .grid-container {
     display: grid;
     grid-template-areas: 
-    '1 1 2 2 3'
-    '4 4 4 5 5';
+    'A1 A1 . A2 A2 A3'
+    'A4 A4 A4 A4 A5 A5';
     gap: 10px;
     padding: 10px;
     background-color: dimgray;
@@ -45,22 +45,23 @@ details ~ section {
     background-color: dimgray;
 }
 .item-a {
-    grid-area: 1;
+    grid-area: A1;
 }
 .item-b {
-    grid-area: 2;
+    grid-area: A2;
 }
 .item-c {
-    grid-area: 3;
+    grid-area: A3;
 }
 .item-d {
-    grid-area: 4;
+    grid-area: A4;
 }
 .item-e {
-    grid-area: 5;
+    grid-area: A5;
 }
 #hehe {
     text-align: right;
+    position: sticky;
 }
 form {
     position: static;
