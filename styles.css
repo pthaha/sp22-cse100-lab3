@@ -1,21 +1,21 @@
 @media screen and (min-width: 500px){
     body {
-        background-color: lightgreen;
+        background-color: black;
     }
 }
 * {
     font-family: 'Caveat', cursive;
-    background-color: lightsalmon;
+    background-color: black;
+    color: white;
 }
 body p {
-    background-color: bisque;
+    color: bisque;
 }
 body > p {
-    background-color: beige;
+    color: beige;
 }
 h2 + p {
-    background-color: crimson;
-    color: darksalmon;
+    text-align: center;
 }
 details ~ section {
     background-color: burlywood;
@@ -29,7 +29,8 @@ details ~ section {
     '1 1 2 2 3'
     '4 4 4 5 5';
     gap: 10px;
-    background-color: cyan;
+    background-color: dimgray;
+    color: lightgray;
     justify-items: center;
 }
 .flex-container {
@@ -38,6 +39,8 @@ details ~ section {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     gap: 10px;
+    background-color: dimgray;
+    color: lightgray;
 }
 .item-a {
     grid-area: 1;
