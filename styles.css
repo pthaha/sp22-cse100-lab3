@@ -14,11 +14,11 @@ body p {
 h2 + p {
     text-align: center;
 }
-details ~ section {
+section ~ details {
     background-color: burlywood;
 }
 div.flex-container{
-    text-align: center;
+    text-align: right;
     position: sticky;
 }
 .grid-container {
@@ -29,7 +29,6 @@ div.flex-container{
     gap: 10px;
     padding: 10px;
     background-color: dimgray;
-    justify-items: center;
 }
 .grid-container > div {
     background-color: lightgray;
@@ -72,7 +71,7 @@ form {
 }
 i, em {
     color: rgb(236, 41, 41);
-    text-decoration: wavy under;
+    text-decoration: wavy;
     display: inline-block;
 }
 h2[title]{
@@ -92,7 +91,7 @@ div {
 li {
     border-width: 1px;
     border-style: dashed;
-    border-color: black;
+    border-color: groove;
     border-radius: 20% 30%;
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -105,7 +104,8 @@ li {
 }
 ul {
     border-width: 1px;
-    border-color: blue;
+    border-color: gray;
+    border-style: groove;
     border-radius: 5px;
     padding: 1em 5vw 1em 5vw;
     margin: 5mm 1cm 5mm 1cm;
