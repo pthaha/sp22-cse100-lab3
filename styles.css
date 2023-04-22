@@ -1,0 +1,116 @@
+@media screen and (min-width: 500px){
+    body {
+        background-color: lightgreen;
+    }
+}
+* {
+    font-family: 'Caveat', cursive;
+    background-color: lightsalmon;
+}
+body p {
+    background-color: bisque;
+}
+body > p {
+    background-color: beige;
+}
+h2 + p {
+    background-color: crimson;
+    color: darksalmon;
+}
+details ~ section {
+    background-color: burlywood;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    '1 1 2 2 3'
+    '4 4 4 5 5';
+    gap: 10px;
+    background-color: cyan;
+    justify-items: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.item-a {
+    grid-area: 1;
+    background-color: aquamarine;
+}
+.item-b {
+    grid-area: 2;
+    background-color: aquamarine;
+}
+.item-c {
+    grid-area: 3;
+    background-color: aquamarine;
+}
+.item-d {
+    grid-area: 4;
+    background-color: aquamarine;
+}
+.item-e {
+    grid-area: 5;
+    background-color: aquamarine;
+}
+#hehe {
+    position: sticky;
+    text-align: right;
+}
+form {
+    position: static;
+    background-color: hsl(195, 66%, 45%);
+    color: rgb(200,200,200);
+    text-align: center;
+    width: 500px;
+}
+i, em {
+    color: rgb(236, 41, 41);
+    text-decoration: wavy under;
+    display: inline-block;
+}
+h2[title]{
+    color: #423fe4be;
+    display: block;
+    min-width: 2em;
+}
+video{
+    color: hsl(195, 66%, 45%);
+    height:auto;
+    max-width: 500px;
+}
+div {
+    height: auto;
+    width: 50%;
+}
+li {
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 20% 30%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 10em;
+    padding-right: 10em;
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+ul {
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 5px;
+    padding: 1em 5vw 1em 5vw;
+    margin: 5mm 1cm 5mm 1cm;
+}
+button:hover {
+    color: lightcoral;
+    text-align: center;
+}
+button:active {
+    color: aqua;
+}
