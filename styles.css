@@ -20,6 +20,9 @@ h2 + p {
 details ~ section {
     background-color: burlywood;
 }
+#hehe.img {
+    text-align: center;
+}
 .grid-container {
     display: grid;
     grid-template-areas: 
