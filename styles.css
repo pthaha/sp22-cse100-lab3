@@ -85,8 +85,8 @@ video{
     max-width: 500px;
 }
 div {
-    height: auto;
-    width: 50%;
+    height: 50%;
+    width: auto;
 }
 li {
     border-width: 1px;
