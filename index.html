@@ -13,69 +13,85 @@
         <meta name="author" content="Peter Lu">
         <meta name="description" content="CSE110 Lab2">
         <link rel="icon" href="https://cdn.frankerfacez.com/emoticon/218530/4">
-        <style>.Div {background-color: grey; text-align: center;}</style>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-    <img src="https://cdn.frankerfacez.com/emoticon/218530/4" alt="PepoG">
-    <h1>Meeting Minute 0</h1>
+    <img id="hehe" src="https://cdn.frankerfacez.com/emoticon/218530/4" alt="PepoG">
+    <div class="flex-container">
+        <div>D</div>
+        <div>I</div>
+        <div>V</div>
+        <div>I</div>
+        <div>D</div>
+        <div>E</div>
+        <div>R</div>
+        <div>!</div>
+    </div>
+    <h1 class="white">Meeting Minute 0</h1>
     <nav>
-        <a href="https://www.netflix.com/browse">netflix</a> | 
+        <a href="https://www.netflix.com/browse">netflix</a> 
         <a href="https://www.hbomax.com/">HBO</a>
     </nav>
     <main>
         <header>
-            <section>
-                <h2>Title:</h2>
-                <p>Learning html</p>
-                <h2>Date:</h2>
-                <p>4/12/2023</p>
-                <h2>attendance:</h2>
-                <p>everyone</p>
-            </section>
-            <div class="Div">
-                <h3>Hi! I'm a <span style="color:tomato;font-size:larger">divider</span></h3>
+            <div class="grid-container">
+                <div class="item-a">
+                    <section>
+                        <h2>Title:</h2>
+                        <p>Learning html</p>
+                        <h2>Date:</h2>
+                        <p>4/12/2023</p>
+                        <h2>attendance:</h2>
+                        <p>everyone</p>
+                    </section>
+                </div>
+                <div class="item-b">
+                    <section>
+                        <details>
+                            <summary><strong>agenda:</strong></summary>
+                                <ol>
+                                    <li>unfinished business:finish introductions</li>
+                                    <li><em>new businesses  </em></li>
+                                </ol>
+                                <ul>
+                                    <li>vote on group leader</li>
+                                    <li>vote on bonding activity</li>
+                                    <li>learn html trough <b>mob programming</b></li>
+                                    <li>finish reading <i>Cracking the Coding Interview</i></li>
+                                    <li><a href="https://www.youtube.com/watch?v=2arvFaFCniQ">learn how to play league of legends</a></li>
+                                </ul>
+                        </details>
+                    </section>
+                </div>
+                <div class="item-c">
+                    <section class="item-c">
+                        <h2>introducing the br tag</h2>
+                        <p><em>Noo! You can't just use the br tag randomly!</em></p>
+                        <p>Haha, br tag goes b<br>r<br>r<br>r<br>r<br>r<br>r<br></p>
+                    </section>
+                </div>
+                <div class="item-d">
+                    <section class="item-d">
+                        <h2>miscellaneous</h2>
+                        <p>nothing for now</p>
+                    </section>
+                </div>
+                <div class="item-e">
+                    <section class="item-e">
+                        <h2>meeting recording</h2>
+                        <video width="240" height="320" controls>
+                            <source src="meeting.mp4">
+                            meeting recording
+                        </video>
+                        <audio controls>
+                            <source src="meeting.mp3">
+                            meeting recording
+                        </audio>
+                    </section>
+                </div>
             </div>
-            <section>
-                <details>
-                    <summary><strong>agenda:</strong></summary>
-                        <ol>
-                            <li>unfinished business:finish introductions</li>
-                            <li><em>new businesses  </em></li>
-                        </ol>
-                        <ul>
-                            <li>vote on group leader</li>
-                            <li>vote on bonding activity</li>
-                            <li>learn html trough <b>mob programming</b></li>
-                            <li>finish reading <i>Cracking the Coding Interview</i></li>
-                            <li><a href="https://www.youtube.com/watch?v=2arvFaFCniQ">learn how to play league of legends</a></li>
-                        </ul>
-                </details>
-            </section>
-            <hr>
-            <section>
-                <h2>introducing the br tag</h2>
-                <p><em>Noo! You can't just use the br tag randomly!</em></p>
-                <p>Haha, br tag goes b<br>r<br>r<br>r<br>r<br>r<br>r<br></p>
-            </section>
-            <hr>
-            <section>
-                <h2>miscellaneous</h2>
-
-            </section>
-            <hr>
-            <section>
-                <h2>meeting recording</h2>
-                <video width="240" height="320" controls>
-                    <source src="meeting.mp4">
-                    meeting recording
-                </video>
-                <audio controls>
-                    <source src="meeting.mp3">
-                    meeting recording
-                </audio>
-            </section>
         </header>
-        <footer>
+        <footer class="white">
             <h3>author</h3>
             <p>Peter Lu</p>
         </footer>
