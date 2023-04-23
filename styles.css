@@ -19,6 +19,8 @@ h2 + p {
 }
 ol ~ ul {
     background-color: burlywood;
+    height: 50%;
+    width: auto;
 }
 body {
     background-color: black;
@@ -33,9 +35,12 @@ body {
     padding: 10px 10px;
     justify-items: stretch;
     background-color: dimgray;
+    border-radius: 30px;
 }
 .grid-container > div {
     background-color: lightgray;
+    border-radius: 30px;
+    color: black;
     text-align: left;
     padding: 10px 0;
 }
@@ -48,8 +53,12 @@ body {
     gap: 10px;
     font-size: 30px;
     background-color: dimgray;
+    border-radius: 30px;
 }
 div.flex-container{
+    background-color: grey;
+    border-radius: 30px;
+    color: black;
     text-align: right;
     position: sticky;
     top: 0;
@@ -79,17 +88,13 @@ i, em {
     display: inline-block;
 }
 h2[title]{
-    color: #423fe4be;
+    color: #423fe48d;
     display: block;
     min-width: 2em;
 }
 video{
     height:500px;
     max-width: 500px;
-}
-div {
-    height: 50%;
-    width: auto;
 }
 ol {
     border-width: 1px;
