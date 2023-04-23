@@ -9,10 +9,12 @@
 }
 * {
     font-family: 'Caveat', cursive;
-    color: white;
 }
 body p h2 li div{
     color: black;
+}
+.white {
+    color: white;
 }
 h2 + p {
     text-align: left;
