@@ -1,6 +1,10 @@
 @media screen and (min-width: 500px){
-    * {
-        background-color: black;
+    form {
+        position: static;
+        background-color: hsl(195, 66%, 45%);
+        color: rgb(200,200,200);
+        text-align: center;
+        width: 500px;
     }
 }
 * {
@@ -22,8 +26,8 @@ section ~ details {
     grid-template-areas: 
     'A1 A1 . A2 A2 A3'
     'A4 A4 A4 A4 A5 A5';
-    gap: 10px;
-    padding: 10px;
+    gap: 10px 10px;
+    padding: 10px 10px;
     justify-items: stretch;
     background-color: dimgray;
 }
@@ -44,7 +48,7 @@ section ~ details {
 }
 div.flex-container{
     text-align: right;
-    position: sticky;
+    position: absolute;
     top: 0;
 }
 .item-a {
@@ -65,13 +69,6 @@ div.flex-container{
 #hehe {
     text-align: right;
     position: sticky;
-}
-form {
-    position: static;
-    background-color: hsl(195, 66%, 45%);
-    color: rgb(200,200,200);
-    text-align: center;
-    width: 500px;
 }
 i, em {
     color: rgb(236, 41, 41);
