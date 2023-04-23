@@ -17,7 +17,7 @@ body p {
 h2 + p {
     text-align: left;
 }
-li ~ li {
+ol ~ ul {
     background-color: burlywood;
 }
 body {
