@@ -88,19 +88,20 @@ div {
     height: 50%;
     width: auto;
 }
-li {
+ol {
     border-width: 1px;
-    border-style: dashed;
-    border-color: groove;
-    border-radius: 20% 30%;
+    border-color: gray;
+    border-style: groove;
+    border-radius: 5%;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 1em;
+    padding-right: 1em;
     margin-top: 5mm;
     margin-bottom: 5mm;
     margin-left: 1cm;
     margin-right: 1cm;
+    text-align: left;
 }
 ul {
     border-width: 1px;
@@ -109,6 +110,7 @@ ul {
     border-radius: 5px;
     padding: 1em 5vw 1em 5vw;
     margin: 5mm 1cm 5mm 1cm;
+    text-align: left;
 }
 button:hover {
     color: lightcoral;
