@@ -18,15 +18,16 @@ body p {
 h2 + p {
     text-align: left;
 }
-section ~ details {
+li ~ li {
     background-color: burlywood;
 }
 .grid-container {
     display: grid;
     grid-template-areas: 
-    'A1 A1 . A2 A2 A3'
+    'A1 A1 A2 A2 A2 A3'
     'A4 A4 A4 A4 A5 A5';
-    gap: 10px 10px;
+    column-gap: 10px;
+    row-gap: 10px;
     padding: 10px 10px;
     justify-items: stretch;
     background-color: dimgray;
@@ -34,7 +35,7 @@ section ~ details {
 .grid-container > div {
     background-color: lightgray;
     text-align: left;
-    padding: 10px;
+    padding: 10px 0;
 }
 .flex-container {
     display: flex;
