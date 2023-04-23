@@ -48,7 +48,7 @@ section ~ details {
 }
 div.flex-container{
     text-align: right;
-    position: absolute;
+    position: sticky;
     top: 0;
 }
 .item-a {
