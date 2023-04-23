@@ -36,6 +36,7 @@ body {
     justify-items: stretch;
     background-color: dimgray;
     border-radius: 30px;
+    color: black;
 }
 .grid-container > div {
     background-color: lightgray;
@@ -94,10 +95,12 @@ i, em {
     text-decoration: underline;
     display: inline-block;
 }
-h2[title]{
-    color: #423fe48d;
+a[href]{
+    background-color: #423fe48d;
+    color: cyan;
     display: block;
     min-width: 2em;
+    border-radius: 5%;
 }
 
 video{
