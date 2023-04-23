@@ -17,10 +17,6 @@ h2 + p {
 section ~ details {
     background-color: burlywood;
 }
-div.flex-container{
-    text-align: right;
-    position: sticky;
-}
 .grid-container {
     display: grid;
     grid-template-areas: 
@@ -28,6 +24,7 @@ div.flex-container{
     'A4 A4 A4 A4 A5 A5';
     gap: 10px;
     padding: 10px;
+    justify-items: stretch;
     background-color: dimgray;
 }
 .grid-container > div {
@@ -39,9 +36,14 @@ div.flex-container{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: right;
     gap: 10px;
+    font-size: 30px;
     background-color: dimgray;
+}
+div.flex-container{
+    text-align: right;
+    position: sticky;
 }
 .item-a {
     grid-area: A1;
@@ -71,7 +73,7 @@ form {
 }
 i, em {
     color: rgb(236, 41, 41);
-    text-decoration: wavy;
+    text-decoration: underline;
     display: inline-block;
 }
 h2[title]{
