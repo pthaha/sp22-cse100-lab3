@@ -11,8 +11,8 @@
     font-family: 'Caveat', cursive;
     color: white;
 }
-body p {
-    color: bisque;
+body p h2 li div{
+    color: black;
 }
 h2 + p {
     text-align: left;
